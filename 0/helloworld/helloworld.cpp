@@ -14,4 +14,8 @@ int main()
     }
     cout << "\nC++ Version: " << __cplusplus;
     cout << endl;
+
+    #ifdef DEBUG
+        std::cout << "Debug mode is ON" << std::endl;
+    #endif
 }
